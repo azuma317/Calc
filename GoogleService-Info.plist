@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>184246893907-ejlj1d77qlvnud5a8nurabfu3pafnehb.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.184246893907-ejlj1d77qlvnud5a8nurabfu3pafnehb</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDD74wOnEGQt_eMf8TPOjm44lB5eGjSChE</string>
+	<key>GCM_SENDER_ID</key>
+	<string>184246893907</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>ind.azuma.Penrose317</string>
+	<key>PROJECT_ID</key>
+	<string>penrose-2481a</string>
+	<key>STORAGE_BUCKET</key>
+	<string>penrose-2481a.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:184246893907:ios:e251915590e18871</string>
+	<key>DATABASE_URL</key>
+	<string>https://penrose-2481a.firebaseio.com</string>
+</dict>
+</plist>
