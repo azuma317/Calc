@@ -8,9 +8,8 @@
 
 import UIKit
 import RealmSwift
-import GoogleMobileAds
 
-class AngleViewController: UIViewController, UITextFieldDelegate, GADInterstitialDelegate {
+class AngleViewController: UIViewController, UITextFieldDelegate {
 
     @IBOutlet weak var bannerSizeView: UIView!
     @IBOutlet weak var a: UITextField!
@@ -26,9 +25,6 @@ class AngleViewController: UIViewController, UITextFieldDelegate, GADInterstitia
     var pai = 3.14159265359
     @IBOutlet weak var saveButton: UIButton!
     
-    var interstitial: GADInterstitial!
-//    let interstitialADTestUnitID = "ca-app-pub-3940256099942544/4411468910"
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -39,10 +35,6 @@ class AngleViewController: UIViewController, UITextFieldDelegate, GADInterstitia
         saveButton.isEnabled = false
         //a,b,cにdoneの追加
         self.addDoneButtonOnKeyboard()
-        
-        interstitial = GADInterstitial(adUnitID: "ca-app-pub-9232062184502798/9902205755")
-        self.interstitial.delegate = self
-        self.interstitial.load(GADRequest())
         
     }
     
@@ -79,11 +71,6 @@ class AngleViewController: UIViewController, UITextFieldDelegate, GADInterstitia
                             }
                         } catch {
                         
-                        }
-                        DispatchQueue.main.async {
-                            if self.interstitial.isReady {
-                                self.interstitial.present(fromRootViewController: self)
-                            }
                         }
                     }else{
                         
